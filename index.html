@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poema: El susurro del viento</title>
+    <!-- Metaetiquetas para SEO -->
+    <meta name="description" content="Un poema inspirador sobre la naturaleza y la vida, con versos que invitan a la reflexión.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://tu-usuario.github.io/poema/">
+    <!-- Enlace a CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        <h1>🌿 El susurro del viento</h1>
+        <p>Poesía para el alma</p>
+    </header>
+
+    <!-- Contenido principal: el poema -->
+    <main>
+        <section class="poema">
+            <div class="estrofa">
+                <p>El viento juega entre los árboles,</p>
+                <p>susurra historias de otros tiempos,</p>
+                <p>lleva en sus alas los sueños</p>
+                <p>que el corazón guarda en silencio.</p>
+            </div>
+            <div class="estrofa">
+                <p>Las hojas bailan su danza loca,</p>
+                <p>la luz se filtra entre las ramas,</p>
+                <p>y el mundo, por un instante,</p>
+                <p>se detiene y solo ama.</p>
+            </div>
+            <div class="estrofa">
+                <p>Así es la vida, fugaz y bella,</p>
+                <p>un soplo de viento en la piel,</p>
+                <p>aprovecha cada estrella,</p>
+                <p>que el tiempo no espera a nadie,</p>
+                <p>y el viento vuelve otra vez.</p>
+            </div>
+        </section>
+
+        <!-- Botón interactivo (JavaScript) -->
+        <button id="btnInspirar">✨ Inspírame otra vez</button>
+        <p id="mensajeInspiracion"></p>
+    </main>
+
+    <!-- Sección de contacto -->
+    <section id="contacto">
+        <h2>📬 Contacta al poeta</h2>
+        <p>Si te ha gustado el poema, escríbenos. Nos encantaría saber tu opinión.</p>
+
+        <!-- Formulario con FormSubmit -->
+        <form action="https://formsubmit.co/davidpernias5dp@gmail.com" method="POST">
+            <!-- Campo oculto para redirigir tras enviar -->
+            <input type="hidden" name="_next" value="https://github.com/davidpernias5dp-spec/poema.git">
+            <!-- Campo oculto para asunto -->
+            <input type="hidden" name="_subject" value="Nuevo mensaje desde el poema">
+            
+            <div class="campo">
+                <label for="nombre">Tu nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
+            </div>
+            <div class="campo">
+                <label for="email">Tu correo:</label>
+                <input type="email" id="email" name="email" placeholder="tucorreo@ejemplo.com" required>
+            </div>
+            <div class="campo">
+                <label for="mensaje">Tu mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" placeholder="¿Qué te inspiró el poema?" required></textarea>
+            </div>
+            <button type="submit" class="btn-enviar">📨 Enviar mensaje</button>
+        </form>
+
+        <!-- Enlaces directos de contacto -->
+        <div class="redes">
+            <h3>O contáctanos directamente:</h3>
+            <div class="botones-contacto">
+                <a href="https://wa.me/573001234567?text=Hola%2C%20me%20encant%C3%B3%20tu%20poema" 
+                   target="_blank" 
+                   class="btn-whatsapp">💬 WhatsApp</a>
+                <a href="mailto:davidpernias5dp@gmail.com?subject=Consulta%20sobre%20el%20poema" 
+                   class="btn-email">✉️ Correo</a>
+                <a href="https://instagram.com/tu_poeta" target="_blank" class="btn-instagram">📸 Instagram</a>
+                <a href="https://facebook.com/tu_poeta" target="_blank" class="btn-facebook">👍 Facebook</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>© 2026 - Poema "El susurro del viento" - Inspiración libre</p>
+    </footer>
+
+    <!-- Enlace a JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,213 @@
+/* Reseteo básico y fuentes */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    background: #f4f1ea;
+    color: #2c3e50;
+    line-height: 1.6;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Encabezado */
+header {
+    text-align: center;
+    padding: 30px 0 20px;
+    border-bottom: 2px solid #b0a28a;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #3e5c3a;
+    letter-spacing: 2px;
+}
+
+header p {
+    font-size: 1.1rem;
+    color: #6b5f4e;
+    font-style: italic;
+}
+
+/* Poema */
+.poema {
+    background: white;
+    padding: 30px 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    margin-bottom: 30px;
+}
+
+.estrofa {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.estrofa p {
+    font-size: 1.2rem;
+    line-height: 2;
+    margin-bottom: 5px;
+}
+
+.estrofa p:last-child {
+    margin-bottom: 0;
+}
+
+/* Botón de inspiración */
+#btnInspirar {
+    display: block;
+    margin: 20px auto;
+    padding: 12px 30px;
+    background: #3e5c3a;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#btnInspirar:hover {
+    background: #2a4027;
+}
+
+#mensajeInspiracion {
+    text-align: center;
+    font-style: italic;
+    color: #6b5f4e;
+    min-height: 30px;
+}
+
+/* Sección de contacto */
+#contacto {
+    background: white;
+    padding: 30px 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    margin-bottom: 30px;
+}
+
+#contacto h2 {
+    text-align: center;
+    color: #3e5c3a;
+    margin-bottom: 10px;
+}
+
+#contacto > p {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #5a4f3e;
+}
+
+/* Formulario */
+.campo {
+    margin-bottom: 18px;
+}
+
+.campo label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #2c3e50;
+}
+
+.campo input,
+.campo textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d0c8b8;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-family: inherit;
+    background: #fcfaf7;
+}
+
+.campo input:focus,
+.campo textarea:focus {
+    border-color: #3e5c3a;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(62, 92, 58, 0.2);
+}
+
+.btn-enviar {
+    background: #3e5c3a;
+    color: white;
+    border: none;
+    padding: 14px 25px;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    width: 100%;
+    transition: background 0.3s;
+}
+
+.btn-enviar:hover {
+    background: #2a4027;
+}
+
+/* Botones de redes y contacto directo */
+.redes {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.redes h3 {
+    margin-bottom: 15px;
+    color: #2c3e50;
+    font-size: 1.1rem;
+}
+
+.botones-contacto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+
+.botones-contacto a {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    transition: transform 0.2s, opacity 0.2s;
+    font-size: 0.95rem;
+}
+
+.botones-contacto a:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+.btn-whatsapp {
+    background: #25D366;
+}
+
+.btn-email {
+    background: #007BFF;
+}
+
+.btn-instagram {
+    background: #E4405F;
+}
+
+.btn-facebook {
+    background: #1877F2;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    color: #7a6e5c;
+    font-size: 0.9rem;
+    border-top: 1px solid #d0c8b8;
+    margin-top: 10px;
+}
